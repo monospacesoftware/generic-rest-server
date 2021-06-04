@@ -2,8 +2,8 @@
 
 A simple REST server that responses with whatever HTTP status you need, and saves the request body or query string to flat files. 
 
-* Simply run `Application`
-* The server will start on port 8090 by default.
+* Simply run `Application` or from the command line: `mvn spring-boot:run`
+* The server will start on port 8090.
 * It accepts `POST`, `PUT`, `GET`, and `DELETE`.
 * The request path should be in the form `/<responseStatus>/<anyPath>`, where responseStatus is the HTTP status code you want to receive back.
 * `POST` and `PUT` must have a request body
